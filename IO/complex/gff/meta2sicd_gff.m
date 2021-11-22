@@ -48,11 +48,12 @@ output_meta.Grid.Col.Sgn=-1;
 
 output_meta.SCPCOA.GrazeAng=input_meta.GrzAngle;
 output_meta.SCPCOA.IncidenceAng=90-output_meta.SCPCOA.GrazeAng;
-if input_meta.Squint<0
-    output_meta.SCPCOA.SideOfTrack='L';
-else
-    output_meta.SCPCOA.SideOfTrack='R';
-end
+%Not an accurate method of calculating SideOfTrack
+%if input_meta.Squint<0
+%    output_meta.SCPCOA.SideOfTrack='L';
+%else
+%    output_meta.SCPCOA.SideOfTrack='R';
+%end
 
 % Could add center frequency input_meta.NominalCenterFreq
 %    Would need to get bandwidth from resolution
