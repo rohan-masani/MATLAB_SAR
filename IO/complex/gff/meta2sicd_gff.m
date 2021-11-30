@@ -48,7 +48,6 @@ output_meta.Grid.Col.Sgn=-1;
 
 output_meta.SCPCOA.GrazeAng=input_meta.GrzAngle;
 output_meta.SCPCOA.IncidenceAng=90-output_meta.SCPCOA.GrazeAng;
-%Does this work for TREs. The definition of squint is different for TREs and SICDs.  Squint angle for TREs is 90-cone angle.
 if input_meta.Squint<0
     output_meta.SCPCOA.SideOfTrack='L';
 else
