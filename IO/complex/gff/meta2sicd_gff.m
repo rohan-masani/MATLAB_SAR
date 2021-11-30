@@ -48,7 +48,7 @@ output_meta.Grid.Col.Sgn=-1;
 
 output_meta.SCPCOA.GrazeAng=input_meta.GrzAngle;
 output_meta.SCPCOA.IncidenceAng=90-output_meta.SCPCOA.GrazeAng;
-%Not an accurate method of calculating SideOfTrack
+%Not an accurate method of calculating SideOfTrack for TREs
 %if input_meta.Squint<0
 %    output_meta.SCPCOA.SideOfTrack='L';
 %else
